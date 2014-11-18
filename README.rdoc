@@ -62,7 +62,17 @@ Some setup you must do manually if you haven't yet:
 Check the `User` (app/models/user.rb) for any additional configuration options you might want to add, such as confirmable or lockable. If you add an option, be sure to inspect the migration file (db/migrate/0123456789_devise_create_users.rb) and uncomment the appropriate section. For example, if you add the confirmable option in the model, you'll need to uncomment the Confirmable section in the migration. Then run `rake db:migrate`
 
 == Places to change the App Name from
+
+**DEVISE**
 * devise layout app/views/layouts/devise.html.erb (title tag and heading)
+* app/views/devise/sessions/new.html.erb
+
+**CONFIG**
+* config/application.rb
+* config/initializers/session_store.rb
+
+* README.rdoc
+
 * application layout app/views/layouts/application.html.erb (title tag and heading)
 
 * Database creation
