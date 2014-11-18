@@ -1,4 +1,6 @@
-== README
+= README
+
+== Description
 
 Rails boilerplate includes Bootstrap, Devise, CanCan
 
@@ -23,6 +25,10 @@ ruby 2.1.2p95
 * System dependencies
 
 * Configuration
+
+== To-Do
+
+* Add seed data for development
 
 == Devise setup
 
